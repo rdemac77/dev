@@ -8,7 +8,7 @@ namespace Calculator.App.Services;
         {
             if (right == 17)
             {
-                right = right * 2;
+             
             }
             return left + right;
         }
