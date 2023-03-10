@@ -46,6 +46,13 @@ public class AdditionServiceTests
         var actual = service.Operate(left, right);
         Assert.Equal(expected, actual);
     }
-
+[Fact]
+    public void Number17()
+    {
+        var service = new AdditionService();
+        var expected = 19;
+        var actual = service.Operate(17, 2);
+        Assert.Equal(expected, actual);
+    }
 
 }
